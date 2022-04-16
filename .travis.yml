@@ -4,10 +4,11 @@ sudo: false
 install: true
 
 jdk:
-  - openjdk6
-  - openjdk7
-  - oraclejdk7
-  - oraclejdk8
+  - openjdk8
+  - openjdk11
+  - openjdk17
+  - oraclejdk11
+  - oraclejdk17
 
 script:
   - "./runSonarQubeAnalysis.sh"
