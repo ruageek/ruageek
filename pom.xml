@@ -56,12 +56,6 @@
       <organizationUrl>https://www.ruageek.com</organizationUrl>
     </developer>
   </developers>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <sonar.projectKey>thomasleplus_ruageek</sonar.projectKey>
-    <sonar.organization>thomasleplus-github</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  </properties>
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -108,11 +102,6 @@
         <groupId>org.pitest</groupId>
         <artifactId>pitest-maven</artifactId>
         <version>1.9.5</version>
-      </plugin>
-      <plugin>
-        <groupId>org.sonarsource.scanner.maven</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.9.1.2184</version>
       </plugin>
       <plugin>
 	<groupId>org.apache.maven.plugins</groupId>

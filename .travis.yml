@@ -10,18 +10,9 @@ jdk:
   - oraclejdk11
   - oraclejdk17
 
-script:
-  - "./runSonarQubeAnalysis.sh"
-
 cache:
   directories:
     - "${HOME}/.m2/repository"
-    - "${HOME}/.sonar/cache"
 
 notifications:
   email: true
-
-env:
-  global:
-    - secure: 
-    - SONAR_HOST_URL=https://sonarqube.com
