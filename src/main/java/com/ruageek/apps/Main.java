@@ -1,5 +1,8 @@
 package com.ruageek.apps;
 
+/**
+ * @author thomas
+ */
 public class Main {
     
     private Main() {
