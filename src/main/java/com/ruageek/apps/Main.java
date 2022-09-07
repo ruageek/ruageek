@@ -3,8 +3,8 @@ package com.ruageek.apps;
 /**
  * @author thomas
  */
-public class Main {
-    
+public final class Main {
+
     private Main() {
         super();
     }
