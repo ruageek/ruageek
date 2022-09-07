@@ -3,12 +3,7 @@ package com.ruageek.apps;
 import org.junit.jupiter.api.Test;
 
 /**
- * 
- */
-
-/**
  * @author thomas
- *
  */
 class TestMain {
 
