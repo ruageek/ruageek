@@ -1,4 +1,4 @@
 # ruageek
 
-[![Maven](https://github.com/thomasleplus/FIXME/workflows/Maven/badge.svg)](https://github.com/thomasleplus/FIXME/actions?query=workflow:"Maven")
-[![CodeQL](https://github.com/thomasleplus/FIXME/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/FIXME/actions?query=workflow:"CodeQL")
+[![Maven](https://github.com/ruageek/ruageek/workflows/Maven/badge.svg)](https://github.com/ruageek/ruageek/actions?query=workflow:"Maven")
+[![CodeQL](https://github.com/ruageek/ruageek/workflows/CodeQL/badge.svg)](https://github.com/ruageek/ruageek/actions?query=workflow:"CodeQL")
