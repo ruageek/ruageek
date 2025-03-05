@@ -9,16 +9,12 @@ import org.junit.jupiter.api.Test;
  */
 public class TestMain {
 
-  /**
-   * The default constructor.
-   */
+  /** The default constructor. */
   public TestMain() {
     super();
   }
 
-  /**
-   * Tests the main method.
-   */
+  /** Tests the main method. */
   @Test
   void test() {
     Main.main(null);

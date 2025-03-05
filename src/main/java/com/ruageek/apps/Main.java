@@ -7,9 +7,7 @@ package com.ruageek.apps;
  */
 public final class Main {
 
-  /**
-   * Private constructor to prevent instantiation.
-   */
+  /** Private constructor to prevent instantiation. */
   private Main() {
     super();
   }
