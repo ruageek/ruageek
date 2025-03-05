@@ -1,10 +1,15 @@
 package com.ruageek.apps;
 
 /**
+ * Main class.
+ *
  * @author Thomas Leplus
  */
 public final class Main {
 
+  /**
+   * Private constructor to prevent instantiation.
+   */
   private Main() {
     super();
   }
