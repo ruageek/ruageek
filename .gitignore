@@ -120,6 +120,21 @@ hs_err_pid*
 
 # SSH
 .ssh/
+*.pem
+*.key
+*.pub
+id_rsa
+id_rsa.pub
+id_dsa
+id_ecdsa
+id_ed25519
+*.cert
+*.csr
+
+# PGP / GPG
+*.asc
+*.gpg
+*.pgp
 
 # =========================
 # Operating System Files
@@ -128,6 +143,7 @@ hs_err_pid*
 # Linux
 # =========================
 
+.config/
 *.bak
 *~
 \#*\#
@@ -183,3 +199,46 @@ $RECYCLE.BIN/
 
 # SARIF files
 *.sarif
+
+# AI
+# =========================
+
+# Claude CLI
+.claude/
+claude.json
+claude.config.json
+.claude_history/
+
+# Gemini CLI
+.gemini/
+gemini.json
+.gemini_history/
+.google-genai/
+vertexai_config.json
+
+# OpenAI CLI
+.openai/
+.openai_history/
+.cache/
+
+# GitHub Copilot
+.copilot/
+copilot.log
+.copilot-history.json
+
+# Hugging Face
+.huggingface/
+.cache/huggingface/
+huggingface-cli.log
+
+# Ollama
+.ollama/
+ollama.yaml
+.ollama_history/
+
+# LangChain / LlamaIndex
+.langchain/
+.llamaindex/
+.env
+*.log
+*.tmp
