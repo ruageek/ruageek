@@ -119,10 +119,10 @@
         </executions>
       </plugin>
       <plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-compiler-plugin</artifactId>
-	<version>3.15.0</version>
-	<configuration>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.15.0</version>
+      <configuration>
           <release>${java.minVersion}</release>
           <showDeprecation>true</showDeprecation>
           <showWarnings>true</showWarnings>
@@ -131,36 +131,36 @@
             <arg>-Xdoclint:all</arg>
             <arg>-Werror</arg>
           </compilerArgs>
-	</configuration>
+      </configuration>
       </plugin>
       <plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-source-plugin</artifactId>
-	<version>3.4.0</version>
-	<executions>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-source-plugin</artifactId>
+      <version>3.4.0</version>
+      <executions>
           <execution>
             <id>attach-sources</id>
             <goals>
               <goal>jar-no-fork</goal>
             </goals>
           </execution>
-	</executions>
+      </executions>
       </plugin>
       <plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-javadoc-plugin</artifactId>
-	<version>3.12.0</version>
-	<executions>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-javadoc-plugin</artifactId>
+      <version>3.12.0</version>
+      <executions>
           <execution>
             <id>attach-javadocs</id>
             <goals>
               <goal>jar</goal>
             </goals>
-	    <configuration>
+          <configuration>
               <source>${java.minVersion}</source>
-	    </configuration>
+          </configuration>
           </execution>
-	</executions>
+      </executions>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -171,15 +171,15 @@
         </configuration>
       </plugin>
       <plugin>
-	<groupId>org.sonatype.plugins</groupId>
-	<artifactId>nexus-staging-maven-plugin</artifactId>
-	<version>1.7.0</version>
-	<extensions>true</extensions>
-	<configuration>
+      <groupId>org.sonatype.plugins</groupId>
+      <artifactId>nexus-staging-maven-plugin</artifactId>
+      <version>1.7.0</version>
+      <extensions>true</extensions>
+      <configuration>
           <serverId>ossrh</serverId>
           <nexusUrl>https://oss.sonatype.org/</nexusUrl>
           <autoReleaseAfterClose>true</autoReleaseAfterClose>
-	</configuration>
+      </configuration>
       </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
@@ -202,14 +202,14 @@
         </executions>
       </plugin>
       <plugin>
-	<groupId>org.owasp</groupId>
+      <groupId>org.owasp</groupId>
         <artifactId>dependency-check-maven</artifactId>
         <version>${dependencyCheck.version}</version>
         <configuration>
           <failBuildOnCVSS>${dependencyCheck.threshold}</failBuildOnCVSS>
-	  <failOnError>true</failOnError>
-	  <nvdApiKey>${dependencyCheck.NVDApiKey}</nvdApiKey>
-	  <skip>${dependencyCheck.skip}</skip>
+        <failOnError>true</failOnError>
+        <nvdApiKey>${dependencyCheck.NVDApiKey}</nvdApiKey>
+        <skip>${dependencyCheck.skip}</skip>
         </configuration>
         <executions>
           <execution>
@@ -235,9 +235,9 @@
         </executions>
       </plugin>
        <plugin>
-	<groupId>com.github.spotbugs</groupId>
-	<artifactId>spotbugs-maven-plugin</artifactId>
-	<version>4.10.2.0</version>
+      <groupId>com.github.spotbugs</groupId>
+      <artifactId>spotbugs-maven-plugin</artifactId>
+      <version>4.10.2.0</version>
         <configuration>
           <plugins>
             <plugin>
@@ -285,8 +285,8 @@
         <artifactId>dependency-check-maven</artifactId>
         <version>${dependencyCheck.version}</version>
         <configuration>
-	  <nvdApiKey>${dependencyCheck.NVDApiKey}</nvdApiKey>
-	  <skip>${dependencyCheck.skip}</skip>
+        <nvdApiKey>${dependencyCheck.NVDApiKey}</nvdApiKey>
+        <skip>${dependencyCheck.skip}</skip>
         </configuration>
         <reportSets>
           <reportSet>
