@@ -1,5 +1,9 @@
 # ruageek
 
+A Java (Maven) application. It is currently a starter skeleton — a
+"Hello, World!" `Main` scaffolded from the shared Maven template — with no
+domain logic yet.
+
 [![Maven](https://github.com/ruageek/ruageek/workflows/Maven/badge.svg)](https://github.com/ruageek/ruageek/actions?query=workflow:"Maven")
 
 ## Contributing
